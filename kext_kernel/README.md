@@ -28,7 +28,7 @@ If Xcode is not installed, download and install it from the [Apple Developer sit
 7. Restart your Mac.
 
 
-## Building the kext (Total within 5 minute)
+## Building the kext
 1. To build the kext, run the following command:
 ```bash
 sudo ./build.sh
@@ -44,7 +44,7 @@ sudo ./build.sh
 **NOTE**. If you encounter the error '**Domain=KMErrorDomain Code=29 "Authenticating extension failed"**', please perform **Disabling SIP** and **Changing startup disk security settings** again.
 
 
-## Using the kext (Total within 1 minute)
+## Using the kext
 Load the kext using the provided script:
 ```bash
 sudo ./run.sh
